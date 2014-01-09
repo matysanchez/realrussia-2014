@@ -8,6 +8,7 @@ body{
     width: 860px;
     margin: 0 auto;
 }
+img{border:0;}
 a{
     color: #fff;
     text-decoration: none;
@@ -147,4 +148,7 @@ aside .remainig span{
 article{
     float: right;
     width: 565px;
+}
+footer{
+    text-align: center;
 }

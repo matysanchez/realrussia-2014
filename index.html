@@ -76,16 +76,30 @@
       </article>
   </div>
 
+  <footer>
+    <img src="images/DELETE-ME_paypal1.jpg" border="0" />
+    <img src="images/DELETE-ME_paypal2.jpg" border="0" />
+  </footer>
+
   <script>
   // CREDITS: http://andrewhenderson.me/tutorial/jquery-sticky-sidebar/
   $(function(){ // document ready
     var stickyTop = $('aside').offset().top; // returns number
     $(window).scroll(function(){ // scroll event
       var windowTop = $(window).scrollTop(); // returns number
-      if (stickyTop < windowTop)
+      //if( stickyTop >= 1415 ){
+      //  $('aside').css({'top': $('aside').offset().top, 'position': 'absolute'});
+      //}else if( stickyTop <= 834 ){
+      //  $('aside').css('position', 'static');
+      //}else{
+      if( $(window).scrollTop() > 830 && $(window).scrollTop() < 1415 )
         $('aside').css({ position: 'fixed', top: 10 });
-      else
-        $('aside').css('position','static');
+      else if ( $(window).scrollTop() > 1415 )
+        $('aside').css({ position: 'absolute', top: 1415 });
+      else if ( $(window).scrollTop() < 830 )
+        $('aside').css({ position: 'absolute', top: 830 });
+
+      //}
     });
   });
   </script>
