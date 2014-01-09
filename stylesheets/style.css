@@ -1,0 +1,150 @@
+.clear{clear:both;display:block;overflow:hidden;visibility:hidden;height:0px;}
+body{
+	font: 'Helvetica Neue', Helvetica, Arial, sans-serif, 14px;
+    margin: 0;
+    color: #404040;
+}
+.content{
+    width: 860px;
+    margin: 0 auto;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{text-decoration: underline;}
+header{
+    height: 58px;
+    background-color: #31302f;
+}
+header h1{float: left;}
+header a{float: right;}
+h1{
+    color: #fff;
+    font-size:30px;
+    font-weight: bold;
+    margin: 0;
+    text-transform: uppercase;
+    padding-top: 11px;
+    float: left;
+}
+h2{
+    border-bottom: 1px solid #942020;
+    color: #942020;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 4px;
+    margin: 0;
+}
+.donate-bg{
+    background: #ffac2c; /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmYWMyYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlNjk0MTUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  #ffac2c 0%, #e69415 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffac2c), color-stop(100%,#e69415)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ffac2c 0%,#e69415 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ffac2c 0%,#e69415 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ffac2c 0%,#e69415 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ffac2c 0%,#e69415 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffac2c', endColorstr='#e69415',GradientType=0 ); /* IE6-8 */
+}
+.donate-top{
+    border: 1px solid #b66515;
+    border-radius: 6px;
+    display: block;
+    padding: 6px 9px;
+    font-size: 21px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 rgba(0,0,0,.7);
+    text-align: center;
+    margin-top: 9px;
+}
+.donate-big{
+    border: 1px solid #b66515;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 23px 98px;
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 rgba(0,0,0,.7);
+    text-align: center;
+    margin-top: 9px;
+    margin-bottom: 10px;
+}
+.donate-medium{
+    border: 1px solid #b66515;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 8px 30px;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 rgba(0,0,0,.7);
+    text-align: center;
+    margin-top: 9px;
+    margin-bottom: 10px;
+}
+.cover{
+    background: url('../images/bg.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 580px;
+    margin-bottom: 20px;
+}
+iframe{
+    margin-top: 48px;
+    background: url('../images/ajax-loader.gif') center center no-repeat;
+}
+.center{
+    text-align: center;
+    margin-bottom: 20px;
+}
+aside{
+    width: 280px;
+    margin-right: 15px;
+    float: left;
+    background: #dbdbdb;
+    border-radius: 8px;
+    padding: 9px 0;
+    text-align: center;
+}
+aside .numberA{
+    width: 139px;
+    border-right: 1px dotted #942020;
+    float: left;
+}
+aside .numberB{
+    float: right;
+    width: 140px;
+}
+aside .numberA, aside .numberB{
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0;
+}
+aside .numberA span, aside .numberB span{
+    font-size: 12px;
+    text-align: center;
+    display: block;
+}
+aside .remainig{
+    font-size: 36px;
+    font-weight: bold;
+    border-top: 1px solid #942020;
+    padding-top: 5px;
+    margin-bottom: 15px;
+}
+aside .remainig span{
+    display: block;
+    font-size: 12px;
+}
+article{
+    float: right;
+    width: 565px;
+}
