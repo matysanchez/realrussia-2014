@@ -152,3 +152,6 @@ article{
 footer{
     text-align: center;
 }
+footer img{
+    display: block;
+}
